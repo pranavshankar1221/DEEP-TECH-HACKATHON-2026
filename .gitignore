@@ -1,0 +1,49 @@
+# =========================
+# DATASETS (DO NOT COMMIT)
+# =========================
+data/
+datasets/
+WM-811K/
+test_images/
+
+# =========================
+# MODEL ARTIFACTS (DO NOT COMMIT)
+# =========================
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.h5
+*.pb
+*.bin
+*.safetensors
+*.data
+
+model/
+checkpoints/
+saved_models/
+tflite_model/
+
+# =========================
+# VENV & DEPENDENCIES
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# PYTHON CACHE
+# =========================
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
